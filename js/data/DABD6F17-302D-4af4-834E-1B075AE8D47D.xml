@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("0.4:1", "", "Patientforløb", "EARoot/EA4/EA75.htm", "175.png", "27", "0", "", "Logical diagram0","{27CE29E2-47A5-455f-8D94-7CE396718E48}");
+tocTab[tocTab.length] = new Array("0.4:2", "", "«RdfsResource» Diagnose", "EARoot/EA4/EA78.htm", "5.png", "E246", "0", "", "Class0","{FF204788-36E3-46d3-B083-8380BCE2974D}");
+tocTab[tocTab.length] = new Array("0.4:3", "", "«RdfsResource» Forløbstema ", "EARoot/EA4/EA79.htm", "5.png", "E241", "0", "", "Class0","{ABBB7813-7828-43b9-BC66-52B12F7EE362}");
+tocTab[tocTab.length] = new Array("0.4:4", "", "«RdfsResource» Henvisning", "EARoot/EA4/EA80.htm", "5.png", "E238", "0", "", "Class0","{15B64067-8903-40a8-A6BE-435B5936D772}");
+tocTab[tocTab.length] = new Array("0.4:5", "", "«RdfsResource» Indikation", "EARoot/EA4/EA81.htm", "5.png", "E242", "0", "", "Class0","{BFC21C77-B802-4bf1-8C46-43104B26F3F0}");
+tocTab[tocTab.length] = new Array("0.4:6", "", "«RdfsResource» Komorbiditet", "EARoot/EA4/EA82.htm", "5.png", "E243", "0", "", "Class0","{D7BA5B1F-D6F3-4bd3-BC49-EBD30F6F8B17}");
+tocTab[tocTab.length] = new Array("0.4:7", "", "«RdfsResource» Patient Reported Experience Measure (PREM)", "EARoot/EA4/EA83.htm", "5.png", "E240", "0", "", "Class0","{335305C2-17D8-4177-8F0E-5A287D68D494}");
+tocTab[tocTab.length] = new Array("0.4:8", "", "«RdfsResource» Patientforløb", "EARoot/EA4/EA84.htm", "5.png", "E237", "0", "", "Class0","{10A24946-F012-40ee-8791-36DC35FE95D4}");
+tocTab[tocTab.length] = new Array("0.4:9", "", "«RdfsResource» Patientkontakt", "EARoot/EA4/EA85.htm", "5.png", "E239", "0", "", "Class0","{318F905B-7E2C-4cc3-B3F6-5ACF5AD1497C}");
+tocTab[tocTab.length] = new Array("0.4:10", "", "«RdfsResource» Sygdomsaktivitet", "EARoot/EA4/EA86.htm", "5.png", "E245", "0", "", "Class0","{F7229B3D-A551-4c52-9B6F-2A8C367D98C3}");
+tocTab[tocTab.length] = new Array("0.4:11", "", "«RdfsResource» Sygdomsstadie", "EARoot/EA4/EA87.htm", "5.png", "E244", "0", "", "Class0","{DB16A67E-F5A7-4cca-8D34-99B4E590FBE5}");

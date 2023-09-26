@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("0.3:1", "", "Organisatorisk Enhed ", "EARoot/EA3/EA66.htm", "175.png", "26", "0", "", "Logical diagram0","{ED441FEB-6C8F-4b80-832E-AEF2324B5486}");
+tocTab[tocTab.length] = new Array("0.3:2", "", "«RdfsResource» Implantat", "EARoot/EA3/EA69.htm", "5.png", "E232", "0", "", "Class0","{4F127FC0-E547-4d2a-80DD-7FAC2822F959}");
+tocTab[tocTab.length] = new Array("0.3:3", "", "«RdfsResource» Materiale", "EARoot/EA3/EA70.htm", "5.png", "E235", "0", "", "Class0","{C28516C7-6ED3-4f99-91B6-7043A7435DF5}");
+tocTab[tocTab.length] = new Array("0.3:4", "", "«RdfsResource» Organisatorisk enhed", "EARoot/EA3/EA71.htm", "5.png", "E236", "0", "", "Class0","{E3B1E9F2-8D46-4b06-9887-C8D935D4725F}");
+tocTab[tocTab.length] = new Array("0.3:5", "", "«RdfsResource» Resurse", "EARoot/EA3/EA72.htm", "5.png", "E233", "0", "", "Class0","{AB421514-D7B6-418a-8FD9-509C97C5667D}");
+tocTab[tocTab.length] = new Array("0.3:6", "", "«RdfsResource» Sted", "EARoot/EA3/EA73.htm", "5.png", "E231", "0", "", "Class0","{20DA3676-F8EF-4746-89B3-D41B9632E250}");
+tocTab[tocTab.length] = new Array("0.3:7", "", "«RdfsResource» Udstyr", "EARoot/EA3/EA74.htm", "5.png", "E234", "0", "", "Class0","{B02A4505-7B6C-45a0-B3DA-30D801A691AB}");

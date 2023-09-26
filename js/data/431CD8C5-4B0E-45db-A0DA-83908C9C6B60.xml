@@ -1,0 +1,16 @@
+tocTab[tocTab.length] = new Array("0.5:1", "", "Person", "EARoot/EA5/EA88.htm", "175.png", "28", "0", "", "Logical diagram0","{FBC0038F-CF7A-420c-A41B-FE4E6B369142}");
+tocTab[tocTab.length] = new Array("0.5:2", "", "«RdfsResource» Ansættelse", "EARoot/EA5/EA91.htm", "5.png", "E251", "0", "", "Class0","{87E4FDA2-67DB-4b71-9EDE-D539B44A8AEC}");
+tocTab[tocTab.length] = new Array("0.5:3", "", "«RdfsResource» CAVE", "EARoot/EA5/EA92.htm", "5.png", "E257", "0", "", "Class0","{CF484A90-BBC6-4d16-8DDA-8C107B583E2B}");
+tocTab[tocTab.length] = new Array("0.5:4", "", "«RdfsResource» Genetisk arv", "EARoot/EA5/EA93.htm", "5.png", "E250", "0", "", "Class0","{66021BCD-9196-476c-AD9A-756A9FFF2970}");
+tocTab[tocTab.length] = new Array("0.5:5", "", "«RdfsResource» KRAM faktor", "EARoot/EA5/EA94.htm", "5.png", "E247", "0", "", "Class0","{0383E6A0-5336-4e8c-AD4E-77230B30CCF1}");
+tocTab[tocTab.length] = new Array("0.5:6", "", "«RdfsResource» Livsstil", "EARoot/EA5/EA95.htm", "5.png", "E260", "0", "", "Class0","{EE584010-D6AC-4243-ACBF-54CCF3FF6B9C}");
+tocTab[tocTab.length] = new Array("0.5:7", "", "«RdfsResource» Medarbejder", "EARoot/EA5/EA96.htm", "5.png", "E249", "0", "", "Class0","{5362073D-169C-47ea-82A1-D09BD2BF356D}");
+tocTab[tocTab.length] = new Array("0.5:8", "", "«RdfsResource» Pårørende", "EARoot/EA5/EA97.htm", "5.png", "E258", "0", "", "Class0","{CF8781F2-849F-4485-A88C-7FD473D3D832}");
+tocTab[tocTab.length] = new Array("0.5:9", "", "«RdfsResource» Patient", "EARoot/EA5/EA98.htm", "5.png", "E256", "0", "", "Class0","{CE9A7195-AB39-4435-959C-17BA12768938}");
+tocTab[tocTab.length] = new Array("0.5:10", "", "«RdfsResource» Patientvurdering", "EARoot/EA5/EA99.htm", "5.png", "E248", "0", "", "Class0","{073672A2-64A9-447d-AF8B-1C981A03BC86}");
+tocTab[tocTab.length] = new Array("0.5:11", "", "«RdfsResource» Person", "EARoot/EA5/EA100.htm", "5.png", "E259", "0", "", "Class0","{DB849C3A-BDB1-42a4-9775-9A4E59FC8BE6}");
+tocTab[tocTab.length] = new Array("0.5:12", "", "«RdfsResource» Rolle", "EARoot/EA5/EA101.htm", "5.png", "E252", "0", "", "Class0","{A2119A13-6F61-454a-B386-4D63523727C7}");
+tocTab[tocTab.length] = new Array("0.5:13", "", "«RdfsResource» Social arv", "EARoot/EA5/EA102.htm", "5.png", "E254", "0", "", "Class0","{C3A5A060-3770-4857-99E3-54E48816DDC9}");
+tocTab[tocTab.length] = new Array("0.5:14", "", "«RdfsResource» Socialt forhold", "EARoot/EA5/EA103.htm", "5.png", "E253", "0", "", "Class0","{AFA547E9-8336-40c6-B000-4A570DE43474}");
+tocTab[tocTab.length] = new Array("0.5:15", "", "«RdfsResource» Sundhedsfaglig person", "EARoot/EA5/EA104.htm", "5.png", "E261", "0", "", "Class0","{FD2C92B6-9744-48e6-9D3C-9960A6F2C109}");
+tocTab[tocTab.length] = new Array("0.5:16", "", "«RdfsResource» Symptom", "EARoot/EA5/EA105.htm", "5.png", "E255", "0", "", "Class0","{CABB7547-D070-40c1-B1DE-2EBE8E071D60}");

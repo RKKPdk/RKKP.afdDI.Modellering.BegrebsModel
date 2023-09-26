@@ -1,0 +1,9 @@
+tocTab[tocTab.length] = new Array("0:1", "", "RKKPs begrebsmodel", "EARoot/EA1.htm", "175.png", "20", "0", "", "Logical diagram0","{76E6DE02-F7B6-4708-9DB6-62C6380D9CC7}");
+tocTab[tocTab.length] = new Array("0:2", "", "RKKPs pakker", "EARoot/EA3.htm", "176.png", "19", "0", "", "Package diagram0","{6467FAE7-6F6D-470f-BD8C-412FABCC54ED}");
+tocTab[tocTab.length] = new Array("0.1", "1", "«ConceptModel» Aktivitet", "EARoot/EA1/EA15.htm", "4.png", "", "", "{9633EAF5-4780-44c2-8027-6EF2A62ED716}", "Package");
+tocTab[tocTab.length] = new Array("0.2", "1", "«ConceptModel» Behandling", "EARoot/EA2/EA39.htm", "4.png", "", "", "{061BBFB0-0ABA-4670-BC13-08A9DE0DD5D2}", "Package");
+tocTab[tocTab.length] = new Array("0.3", "1", "«ConceptModel» Organisatorisk Enhed", "EARoot/EA3/EA68.htm", "4.png", "", "", "{0D6A8792-2584-4dcc-9E50-8721B19960E7}", "Package");
+tocTab[tocTab.length] = new Array("0.4", "1", "«ConceptModel» Patientforløb", "EARoot/EA4/EA77.htm", "4.png", "", "", "{DABD6F17-302D-4af4-834E-1B075AE8D47D}", "Package");
+tocTab[tocTab.length] = new Array("0.5", "1", "«ConceptModel» Person", "EARoot/EA5/EA90.htm", "4.png", "", "", "{431CD8C5-4B0E-45db-A0DA-83908C9C6B60}", "Package");
+tocTab[tocTab.length] = new Array("0.6", "1", "«ConceptModel» RKKP elementer", "EARoot/EA6/EA108.htm", "4.png", "", "", "{BABB8397-E607-49e9-B70A-99F7A03BE7F8}", "Package");
+tocTab[tocTab.length] = new Array("0.7", "1", "«ConceptModel» Undersøgelse", "EARoot/EA7/EA120.htm", "4.png", "", "", "{9B7D14A0-64F1-4814-9D9A-0F747B669772}", "Package");

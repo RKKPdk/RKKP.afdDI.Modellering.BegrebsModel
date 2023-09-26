@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Person</title>
+<link href="../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Person </h1>
+			<!-- <img class="header_image" src="../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../EA5.htm">RKKPs begrebsmodel version 2.0</a> / <a href="EA90.htm">Person</a> / <a href="EA88.htm">Person</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA88.htm">Person</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA91.htm">Ansættelse</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA92.htm">CAVE</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA93.htm">Genetisk arv</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA94.htm">KRAM faktor</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA95.htm">Livsstil</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA96.htm">Medarbejder</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA98.htm">Patient</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA99.htm">Patientvurdering</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA100.htm">Person</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA97.htm">Pårørende</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA101.htm">Rolle</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA102.htm">Social arv</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA103.htm">Socialt forhold</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA104.htm">Sundhedsfaglig person</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA105.htm">Symptom</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA89.png" usemap="#EA89" border="0" />
+
+<MAP NAME="EA89">
+<area shape="rect" coords="88,485,192,529" href="EA105.htm" target="_self">
+<area shape="rect" coords="10,343,114,414" href="../EA4/EA84.htm" target="_self">
+<area shape="rect" coords="10,261,163,315" href="../EA7/EA147.htm" target="_self">
+<area shape="rect" coords="10,175,114,243" href="../EA4/EA83.htm" target="_self">
+<area shape="rect" coords="1023,525,1127,593" href="../EA1/EA17.htm" target="_self">
+<area shape="rect" coords="1023,440,1127,508" href="../EA3/EA72.htm" target="_self">
+<area shape="rect" coords="1014,133,1118,246" href="../EA3/EA71.htm" target="_self">
+<area shape="rect" coords="315,610,419,654" href="EA103.htm" target="_self">
+<area shape="rect" coords="433,609,537,653" href="EA93.htm" target="_self">
+<area shape="rect" coords="164,611,268,655" href="EA94.htm" target="_self">
+<area shape="rect" coords="205,485,309,529" href="EA95.htm" target="_self">
+<area shape="rect" coords="736,343,840,387" href="EA96.htm" target="_self">
+<area shape="rect" coords="736,442,840,510" href="EA104.htm" target="_self">
+<area shape="rect" coords="588,610,692,654" href="EA102.htm" target="_self">
+<area shape="rect" coords="178,123,282,175" href="EA99.htm" target="_self">
+<area shape="rect" coords="667,10,771,81" href="EA92.htm" target="_self">
+<area shape="rect" coords="667,167,771,211" href="EA101.htm" target="_self">
+<area shape="rect" coords="852,167,956,211" href="EA91.htm" target="_self">
+<area shape="rect" coords="588,343,692,387" href="EA97.htm" target="_self">
+<area shape="rect" coords="408,343,512,387" href="EA98.htm" target="_self">
+<area shape="rect" coords="512,167,616,211" href="EA100.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Person : Logical diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">06-07-2018 00:00:00</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">16-02-2023 14:17:29</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Helle Torp Eklund</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">2.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{FBC0038F-CF7A-420c-A41B-FE4E6B369142}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

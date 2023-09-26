@@ -1,0 +1,10 @@
+tocTab[tocTab.length] = new Array("0.6:1", "", "RKKP elementer", "EARoot/EA6/EA106.htm", "175.png", "29", "0", "", "Logical diagram0","{782CC867-F7DA-4ba2-81FB-D209BF59E5CD}");
+tocTab[tocTab.length] = new Array("0.6:2", "", "«RdfsResource» Databasespecifik indikator (!)", "EARoot/EA6/EA109.htm", "5.png", "E270", "0", "", "Class0","{FEA340C1-E373-4660-8D6C-CA079FEBD058}");
+tocTab[tocTab.length] = new Array("0.6:3", "", "«RdfsResource» Datakilde (!)", "EARoot/EA6/EA110.htm", "5.png", "E266", "0", "", "Class0","{83130014-F108-4344-BD32-ECB078F5E848}");
+tocTab[tocTab.length] = new Array("0.6:4", "", "«RdfsResource» Generel indikator (!)", "EARoot/EA6/EA111.htm", "5.png", "E265", "0", "", "Class0","{7AECAA68-4365-4a09-AD23-706DEFE2D611}");
+tocTab[tocTab.length] = new Array("0.6:5", "", "«RdfsResource» Indikator", "EARoot/EA6/EA112.htm", "5.png", "E267", "0", "", "Class0","{A5513638-D9A2-4d2b-A2D5-68A06B607FD5}");
+tocTab[tocTab.length] = new Array("0.6:6", "", "«RdfsResource» Indikatorpopulation", "EARoot/EA6/EA113.htm", "5.png", "E264", "0", "", "Class0","{485C9EB7-BFB5-44c5-97A0-18E40D54683E}");
+tocTab[tocTab.length] = new Array("0.6:7", "", "«RdfsResource» Klinisk kvallitetsdatabase", "EARoot/EA6/EA114.htm", "5.png", "E262", "0", "", "Class0","{2878CAA9-8CDA-4d23-B09A-C9851D688BB4}");
+tocTab[tocTab.length] = new Array("0.6:8", "", "«RdfsResource» Patientpopulation", "EARoot/EA6/EA115.htm", "5.png", "E263", "0", "", "Class0","{3232D5AF-CDCF-43ec-A10F-04F94CA60115}");
+tocTab[tocTab.length] = new Array("0.6:9", "", "«RdfsResource» Sygdomsområde", "EARoot/EA6/EA116.htm", "5.png", "E268", "0", "", "Class0","{B25AB6BA-9183-4768-BC77-8836D277D4BC}");
+tocTab[tocTab.length] = new Array("0.6:10", "", "«RdfsResource» Variabel (!)", "EARoot/EA6/EA117.htm", "5.png", "E269", "0", "", "Class0","{EFB98D88-3B9C-4e32-88CF-7578503AF470}");

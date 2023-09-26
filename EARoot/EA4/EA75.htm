@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Patientforløb</title>
+<link href="../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Patientforløb </h1>
+			<!-- <img class="header_image" src="../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../EA5.htm">RKKPs begrebsmodel version 2.0</a> / <a href="EA77.htm">Patientforløb</a> / <a href="EA75.htm">Patientforløb</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA75.htm">Patientforløb</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA78.htm">Diagnose</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA79.htm">Forløbstema </a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA80.htm">Henvisning</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA81.htm">Indikation</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA82.htm">Komorbiditet</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA83.htm">Patient Reported Experience Measure (PREM)</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA84.htm">Patientforløb</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA85.htm">Patientkontakt</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA86.htm">Sygdomsaktivitet</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA87.htm">Sygdomsstadie</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA76.png" usemap="#EA76" border="0" />
+
+<MAP NAME="EA76">
+<area shape="rect" coords="1014,613,1104,681" href="../EA2/EA41.htm" target="_self">
+<area shape="rect" coords="1014,506,1104,550" href="EA81.htm" target="_self">
+<area shape="rect" coords="493,10,583,65" href="EA79.htm" target="_self">
+<area shape="rect" coords="24,308,114,365" href="../EA5/EA105.htm" target="_self">
+<area shape="rect" coords="24,48,114,119" href="../EA6/EA116.htm" target="_self">
+<area shape="rect" coords="24,509,114,594" href="../EA3/EA72.htm" target="_self">
+<area shape="rect" coords="627,303,749,369" href="../EA3/EA71.htm" target="_self">
+<area shape="rect" coords="24,382,124,444" href="../EA1/EA17.htm" target="_self">
+<area shape="rect" coords="1013,164,1113,208" href="../EA1/EA33.htm" target="_self">
+<area shape="rect" coords="1009,393,1109,478" href="../EA1/EA18.htm" target="_self">
+<area shape="rect" coords="817,655,936,716" href="../EA7/EA166.htm" target="_self">
+<area shape="rect" coords="563,655,653,740" href="../EA5/EA99.htm" target="_self">
+<area shape="rect" coords="24,238,114,295" href="../EA5/EA98.htm" target="_self">
+<area shape="rect" coords="706,107,796,151" href="EA87.htm" target="_self">
+<area shape="rect" coords="699,15,803,61" href="EA86.htm" target="_self">
+<area shape="rect" coords="444,414,548,465" href="EA85.htm" target="_self">
+<area shape="rect" coords="442,230,551,281" href="EA84.htm" target="_self">
+<area shape="rect" coords="563,542,653,627" href="EA83.htm" target="_self">
+<area shape="rect" coords="1018,281,1108,325" href="EA82.htm" target="_self">
+<area shape="rect" coords="706,237,796,281" href="EA80.htm" target="_self">
+<area shape="rect" coords="833,414,923,458" href="EA78.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Patientforløb : Logical diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">05-02-2019 00:00:00</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">16-02-2023 14:13:02</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">B025870</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">2.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{27CE29E2-47A5-455f-8D94-7CE396718E48}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+
